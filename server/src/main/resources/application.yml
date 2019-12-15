@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: server
+server:
+  port: 9002
+  ssl:
+    client-auth: need
+    enabled: true
+    key-store: classpath:nt-ms.jks
+    key-store-password: ganesan
+    key-alias: nt-ms
+    key-store-type: JKS
+    key-store-provider: SUN
+    trust-store: classpath:nt-ms.jks
+    trust-store-password: ganesan
+    trust-store-type: JKS

@@ -1,0 +1,15 @@
+downstream:
+  ssl:
+    key-store: classpath:nt-gateway.jks
+    key-store-password: ganesan
+    key-alias: nt-gateway
+    key-store-type: JKS
+    key-store-provider: SUN
+    trust-store: classpath:nt-gateway.jks
+    trust-store-password: ganesan
+    trust-store-type: JKS
+spring:
+  application:
+    name: client
+server:
+  port: 9001
